@@ -1,5 +1,41 @@
 <template>
   <div class="min-h-screen min-w-xs bg-black text-white antialiased">
+    <header>
+      <div class="container">
+        <div class="bg-black py-2">
+          <p class="text-center text-sm font-medium uppercase tracking-wide">Free expedited shipping on all U.S. orders!</p>
+        </div>
+
+        <a class="" href="#">
+          <img class="mx-auto h-24 w-auto" src="/img/premeditated-logotype.png" alt="Premeditated" />
+        </a>
+
+        <nav class="mt-2 flex items-center justify-center gap-x-4">
+          <a class="text-sm uppercase tracking-wide" href="#">Home</a>
+          <a class="text-sm uppercase tracking-wide" href="#">Wigs</a>
+          <a class="text-sm uppercase tracking-wide" href="#">Shop now</a>
+          <a class="text-sm uppercase tracking-wide" href="#">About Us</a>
+          <a class="text-sm uppercase tracking-wide" href="#">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-8">
+        <div class="px-8 md:mx-auto md:max-w-xl lg:max-w-2xl">
+          <h2 class="text-center text-2xl font-bold uppercase md:text-3xl md:tracking-tight lg:text-4xl">Subscribe to our newsletter</h2>
+          <p class="mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <form class="mt-4 flex items-center rounded-lg border border-spring p-2 md:mt-6 lg:mt-8" action="#">
+            <div class="w-full">
+              <label class="sr-only" for="email">Add your email address here</label>
+              <input class="w-full bg-transparent px-4 py-3 focus:outline-none" id="email" type="email" placeholder="Add your email address here" />
+            </div>
+            <button class="rounded-md bg-gray-700 px-4 py-3 font-medium uppercase tracking-wide text-spring" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
     <footer class="py-16">
       <div class="container">
         <div role="grid">
