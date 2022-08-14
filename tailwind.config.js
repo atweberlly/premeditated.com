@@ -1,6 +1,8 @@
+const contents = require('./contents')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './src/**/*.vue'],
+  content: [...contents],
   theme: {
     container: {
       center: true,
@@ -8,7 +10,14 @@ module.exports = {
         DEFAULT: '2rem',
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        spring: '#a1ff00',
+      },
+      minWidth: {
+        xs: '20rem',
+      },
+    },
   },
   plugins: [],
 }
