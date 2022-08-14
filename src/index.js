@@ -1,6 +1,10 @@
 import { createApp } from 'vue'
+import { createMetaManager } from 'vue-meta'
 import router from './router'
 import App from './App.vue'
-import './styles/index.css'
 
-createApp(App).use(router).mount(document.getElementById('app'))
+const app = createApp(App)
+
+app.use(router)
+app.use(createMetaManager())
+app.mount(document.getElementById('app'))
