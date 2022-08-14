@@ -21,6 +21,39 @@
     </header>
 
     <main>
+      <section class="overflow-hidden py-8">
+        <div class="container">
+          <h2 class="text-center text-2xl font-bold uppercase md:text-3xl md:tracking-tight lg:text-4xl">Show your star goddess</h2>
+          <p class="mt-2 text-center text-lg text-gray-400">Get inspired by our wigs</p>
+        </div>
+
+        <div class="-mx-8 grid grid-cols-4 items-center gap-x-4 md:grid-cols-5 lg:-mx-24 xl:mx-auto xl:max-w-screen-xl" role="grid">
+          <div class="mt-16 grid grid-cols-1 gap-y-4 sm:mt-20 md:mt-24" role="row">
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-01.png" alt="" />
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-02.png" alt="" />
+          </div>
+
+          <div class="grid grid-cols-1 gap-y-4" role="row">
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-03.png" alt="" />
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-04.png" alt="" />
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 gap-y-4 sm:mt-12 md:mt-16" role="row">
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-05.png" alt="" />
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-06.png" alt="" />
+          </div>
+
+          <div class="grid grid-cols-1 gap-y-4" role="row">
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-07.png" alt="" />
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-08.png" alt="" />
+          </div>
+
+          <div class="hidden md:grid md:grid-cols-1 md:gap-4" role="row">
+            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-09.png" alt="" />
+          </div>
+        </div>
+      </section>
+
       <section class="py-8">
         <div class="px-8 md:mx-auto md:max-w-xl lg:max-w-2xl">
           <h2 class="text-center text-2xl font-bold uppercase md:text-3xl md:tracking-tight lg:text-4xl">Subscribe to our newsletter</h2>
