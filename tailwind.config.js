@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 const contents = require('./contents')
 
 /** @type {import('tailwindcss').Config} */
@@ -13,6 +14,9 @@ module.exports = {
     extend: {
       colors: {
         spring: '#a1ff00',
+      },
+      fontFamily: {
+        sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
       minWidth: {
         xs: '20rem',
