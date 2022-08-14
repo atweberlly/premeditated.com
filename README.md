@@ -1,19 +1,19 @@
 # Project Title
 
-[Vite](https://vitejs.dev), [PostCSS](https://postcss.org), and [Tailwind CSS](https://tailwindcss.com)
+This demo website uses [Vite](https://vitejs.dev), [PostCSS](https://postcss.org), and [Tailwind CSS](https://tailwindcss.com).
 
 ## Run Locally
 
 1. Download or clone the project
 
    ```sh
-   git clone https://github.com
+   git clone https://github.com/joaquinvaldezzz/premeditated.com.git
    ```
 
 2. Go to the project directory
 
    ```sh
-   cd folder-name
+   cd premeditated.com
    ```
 
 3. Install dependencies
