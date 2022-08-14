@@ -7,6 +7,7 @@
   </div>
 </template>
 
+<!--
 <script>
 import { useMeta } from 'vue-meta'
 
@@ -20,4 +21,4 @@ export default {
     })
   },
 }
-</script>
+</script> -->
