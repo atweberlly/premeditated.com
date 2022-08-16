@@ -7,27 +7,31 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
-  "browserslist": [
-    "> 0.5%",
-    ">= 1%",
-    "last 1 major version",
-    "not dead",
-    "Chrome >= 45",
-    "Firefox >= 38",
-    "Edge >= 12",
-    "Explorer >= 10",
-    "iOS >= 9",
-    "Safari >= 9",
-    "Android >= 4.4",
-    "Opera >= 30"
-  ],
+  "browserslist": {
+    "development": [
+      "> 0.5%"
+    ],
+    "production": [
+      ">= 1%",
+      "last 1 major version",
+      "not dead",
+      "Chrome >= 45",
+      "Firefox >= 38",
+      "Edge >= 12",
+      "Explorer >= 10",
+      "iOS >= 9",
+      "Safari >= 9",
+      "Android >= 4.4",
+      "Opera >= 30"
+    ]
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.2",
-    "@vitejs/plugin-vue": "^3.0.3",
     "autoprefixer": "^10.4.8",
     "swiper": "^8.3.2",
     "tailwindcss": "^3.1.8",
-    "vite": "^3.0.8"
+    "vite": "^3.0.8",
+    "vite-plugin-html": "^3.2.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
