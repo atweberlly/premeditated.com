@@ -1,0 +1,9 @@
+@import 'swiper/css/bundle';
+
+.swiper-pagination {
+  @apply !bottom-0;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white;
+}

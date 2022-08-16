@@ -21,9 +21,69 @@
     </header>
 
     <main>
+      <section class="py-8">
+        <div class="container relative pb-8">
+          <h2 class="text-center text-2xl uppercase tracking-tight">Our synthetic lace front wigs are the <span class="text-purple">perfect way to express yourself!</span></h2>
+          <p class="mt-4 text-center text-lg text-gray-300">Countless textures, lengths, and colors of synthetic lace front wigs.</p>
+
+          <div class="swiper mt-8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="relative overflow-hidden rounded-2xl border border-white">
+                  <img src="/img/collection/wig-01.jpg" alt="" />
+                  <div class="absolute inset-x-0 bottom-0 bg-black/50 p-6 supports-backdrop-blur:backdrop-blur-lg">
+                    <h3 class="text-xl font-bold uppercase tracking-wider">Galactic Unicorn</h3>
+                    <div class="text-sm uppercase tracking-wide">Synthetic Lace Front</div>
+                    <div class="text-sm uppercase tracking-wide">Wigs &verbar; Pink Curly Wig</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="relative overflow-hidden rounded-2xl border border-white">
+                  <img src="/img/collection/wig-01.jpg" alt="" />
+                  <div class="absolute inset-x-0 bottom-0 bg-black/50 p-6 supports-backdrop-blur:backdrop-blur-lg">
+                    <h3 class="text-xl font-bold uppercase tracking-wider">Galactic Unicorn</h3>
+                    <div class="text-sm uppercase tracking-wide">Synthetic Lace Front</div>
+                    <div class="text-sm uppercase tracking-wide">Wigs &verbar; Pink Curly Wig</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="relative overflow-hidden rounded-2xl border border-white">
+                  <img src="/img/collection/wig-01.jpg" alt="" />
+                  <div class="absolute inset-x-0 bottom-0 bg-black/50 p-6 supports-backdrop-blur:backdrop-blur-lg">
+                    <h3 class="text-xl font-bold uppercase tracking-wider">Galactic Unicorn</h3>
+                    <div class="text-sm uppercase tracking-wide">Synthetic Lace Front</div>
+                    <div class="text-sm uppercase tracking-wide">Wigs &verbar; Pink Curly Wig</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="relative overflow-hidden rounded-2xl border border-white">
+                  <img src="/img/collection/wig-01.jpg" alt="" />
+                  <div class="absolute inset-x-0 bottom-0 bg-black/50 p-6 supports-backdrop-blur:backdrop-blur-lg">
+                    <h3 class="text-xl font-bold uppercase tracking-wider">Galactic Unicorn</h3>
+                    <div class="text-sm uppercase tracking-wide">Synthetic Lace Front</div>
+                    <div class="text-sm uppercase tracking-wide">Wigs &verbar; Pink Curly Wig</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
       <section class="overflow-hidden py-8">
         <div class="container">
-          <h2 class="text-center text-2xl font-bold uppercase md:text-3xl md:tracking-tight lg:text-4xl">Show your star goddess</h2>
+          <h2 class="text-center text-2xl font-bold uppercase text-shadow md:text-3xl md:tracking-tight lg:text-4xl">Show your star goddess</h2>
           <p class="mt-2 text-center text-lg text-gray-400">Get inspired by our wigs</p>
         </div>
 
@@ -48,7 +108,7 @@
             <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-08.png" alt="" />
           </div>
 
-          <div class="hidden md:grid md:grid-cols-1 md:gap-4" role="row">
+          <div class="hidden md:grid md:grid-cols-1" role="row">
             <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-09.png" alt="" />
           </div>
         </div>
@@ -56,7 +116,7 @@
 
       <section class="py-8">
         <div class="px-8 md:mx-auto md:max-w-xl lg:max-w-2xl">
-          <h2 class="text-center text-2xl font-bold uppercase md:text-3xl md:tracking-tight lg:text-4xl">Subscribe to our newsletter</h2>
+          <h2 class="text-center text-2xl font-bold uppercase text-shadow md:text-3xl md:tracking-tight lg:text-4xl">Subscribe to our newsletter</h2>
           <p class="mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <form class="mt-4 flex items-center rounded-lg border border-spring p-2 md:mt-6 lg:mt-8" action="#">
             <div class="w-full">
@@ -67,6 +127,39 @@
           </form>
         </div>
       </section>
+
+      <!-- <section class="mt-8">
+        <div class="container">
+          <div role="grid">
+            <div class="-mx-8 grid grid-cols-3 xl:mx-0" role="row">
+              <div role="gridcell">
+                <img class="w-full" src="/img/wigs/wig-04.png" alt="" />
+              </div>
+
+              <div role="gridcell">
+                <img class="w-full" src="/img/wigs/wig-07.png" alt="" />
+              </div>
+
+              <div role="gridcell">
+                <img class="w-full" src="/img/wigs/wig-08.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="-mx-8 bg-experience bg-cover bg-center bg-no-repeat xl:mx-0">
+            <div class="px-8 py-16 md:py-24 lg:py-32 xl:py-56">
+              <h2 class="text-2xl uppercase tracking-widest text-shadow md:text-3xl lg:text-4xl xl:text-5xl">
+                Join the
+                <br />
+                experience
+              </h2>
+              <div class="mt-4">
+                <a class="inline-block bg-spring px-3 py-2 text-sm font-medium uppercase tracking-wide text-black" href="#">Follow us on Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
     </main>
 
     <footer class="py-16">
@@ -129,3 +222,45 @@
     </footer>
   </div>
 </template>
+
+<script>
+import Swiper, { Navigation, Pagination } from 'swiper'
+
+function slider() {
+  const swiper = new Swiper('.swiper', {
+    modules: [Navigation, Pagination],
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      1280: {
+        slidesPerView: 4,
+      },
+    },
+    spaceBetween: 32,
+
+    /* navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }, */
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  })
+
+  swiper.init()
+}
+
+export default {
+  mounted() {
+    slider()
+  },
+}
+</script>
