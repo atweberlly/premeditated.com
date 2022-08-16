@@ -5,25 +5,25 @@ const swiper = new Swiper('.swiper', {
 
   breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 1.25,
     },
     640: {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 3.25,
     },
     1280: {
       slidesPerView: 4,
     },
   },
+
+  centeredSlides: true,
+  loop: true,
   spaceBetween: 32,
 
-  /* navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }, */
   pagination: {
+    clickable: true,
     el: '.swiper-pagination',
   },
 })

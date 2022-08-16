@@ -1,7 +1,7 @@
 @import 'swiper/css/bundle';
 
 .swiper-pagination {
-  @apply !bottom-0;
+  @apply !bottom-4;
 }
 
 .swiper-pagination-bullet {
