@@ -19,6 +19,7 @@ module.exports = {
       },
       backgroundImage: {
         experience: "url('/img/join-the-experience.jpg')",
+        footer: "url('/img/footer-bg.jpg')",
       },
       fontFamily: {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],

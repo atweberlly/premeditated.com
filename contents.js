@@ -1,1 +1,1 @@
-module.exports = ['./index.html', './src/**/*.vue']
+module.exports = ['./index.html', './pages/**/*.html']
