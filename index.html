@@ -26,7 +26,7 @@
     <meta property="og:image" content="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2300&q=80" />
   </head>
 
-  <body class="min-h-screen min-w-xs bg-black text-white antialiased">
+  <body class="relative min-h-screen min-w-xs bg-black text-white antialiased">
     <header>
       <div class="container">
         <div class="bg-black py-2">
@@ -48,13 +48,40 @@
     </header>
 
     <main>
+      <section class="py-8">
+        <div class="container relative">
+          <div class="swiper main-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="text-center">
+                  <div class="text-xl font-bold uppercase text-mauve">Be seen from lightyears away</div>
+                  <h1 class="mt-4 text-2xl uppercase text-spring">Colorful Wigs</h1>
+                  <div class="mt-8 text-lg uppercase text-mauve">Curly, straight, wavy synthetic lace wigs</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="swiper-prev-button absolute left-4 top-1/2 z-10 -translate-y-1/2" type="button">
+            <svg class="h-6 w-6 text-prelude" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m15 19-7-7 7-7" />
+            </svg>
+          </button>
+          <button class="swiper-next-button absolute right-4 top-1/2 z-10 -translate-y-1/2" type="button">
+            <svg class="h-6 w-6 text-prelude" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
       <section class="relative py-12 md:py-16 lg:py-20 xl:py-24">
         <div class="container relative">
           <h2 class="text-center text-2xl uppercase tracking-tight md:text-3xl xl:text-4xl xl:leading-normal">Our synthetic lace front wigs are the <span class="text-purple sm:block">perfect way to express yourself!</span></h2>
           <p class="mt-4 text-center text-lg text-gray-300">Countless textures, lengths, and colors of synthetic lace front wigs.</p>
         </div>
 
-        <div class="swiper mt-8">
+        <div class="swiper collection-swiper mt-8">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="relative overflow-hidden rounded-2xl border border-white">
@@ -113,30 +140,49 @@
 
         <div class="-mx-8 grid grid-cols-4 items-center gap-x-4 md:grid-cols-5 lg:-mx-24 xl:mx-auto xl:max-w-screen-xl" role="grid">
           <div class="mt-16 grid grid-cols-1 gap-y-4 sm:mt-20 md:mt-24" role="row">
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-01.png" alt="" />
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-02.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-01.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-02.png" alt="" />
           </div>
 
           <div class="grid grid-cols-1 gap-y-4" role="row">
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-03.png" alt="" />
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-04.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-03.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-04.png" alt="" />
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-y-4 sm:mt-12 md:mt-16" role="row">
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-05.png" alt="" />
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-06.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-05.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-06.png" alt="" />
           </div>
 
           <div class="grid grid-cols-1 gap-y-4" role="row">
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-07.png" alt="" />
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-08.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-07.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-08.png" alt="" />
           </div>
 
           <div class="hidden md:grid md:grid-cols-1" role="row">
-            <img class="rounded-lg lg:rounded-xl" src="/img/wigs/wig-09.png" alt="" />
+            <img class="wig cursor-pointer rounded-lg lg:rounded-xl" src="/img/wigs/wig-09.png" alt="" />
           </div>
         </div>
       </section>
+
+      <div class="img-modal" id="img-modal">
+        <button class="absolute top-8 right-8" id="close-button" type="button">
+          <span class="sr-only">Close image modal</span>
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <div class="flex-1 p-8">
+          <img class="w-full rounded-xl md:mx-auto md:max-w-md lg:max-w-lg" id="modal" src="" alt="" />
+        </div>
+      </div>
+
+      <!-- <section class="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24">
+        <div class="container">
+          <h2>Our Collection</h2>
+        </div>
+      </section> -->
 
       <section class="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24">
         <div class="px-8 md:mx-auto md:max-w-xl lg:max-w-2xl">

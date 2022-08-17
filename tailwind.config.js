@@ -16,6 +16,8 @@ module.exports = {
       colors: {
         purple: '#d71dff',
         spring: '#a1ff00',
+        mauve: '#fbc5ff',
+        prelude: '#c49fcc',
       },
       backgroundImage: {
         experience: "url('/img/join-the-experience.jpg')",

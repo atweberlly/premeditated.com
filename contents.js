@@ -1,1 +1,1 @@
-module.exports = ['./index.html', './pages/**/*.html']
+module.exports = ['./index.html', './pages/**/*.html', './src/**/*.js']

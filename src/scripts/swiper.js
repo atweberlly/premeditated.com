@@ -1,6 +1,16 @@
 import Swiper, { Navigation, Pagination } from 'swiper'
 
-const swiper = new Swiper('.swiper', {
+const mainSwiper = new Swiper('.main-swiper', {
+  modules: [Navigation],
+  loop: true,
+  spaceBetween: 32,
+  navigation: {
+    prevEl: '.swiper-prev-button',
+    nextEl: '.swiper-next-button',
+  },
+})
+
+const collectionSwiper = new Swiper('.collection-swiper', {
   modules: [Navigation, Pagination],
 
   breakpoints: {
@@ -28,4 +38,5 @@ const swiper = new Swiper('.swiper', {
   },
 })
 
-swiper.init()
+mainSwiper.init()
+collectionSwiper.init()
