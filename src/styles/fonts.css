@@ -13,3 +13,11 @@
   src: url('/fonts/Inter-italic.var.woff2') format('woff2');
   font-display: swap;
 }
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Lastica';
+  font-style: normal;
+  src: url('/fonts/Lastica.woff') format('woff'), url('/fonts/Lastica.woff2') format('woff2');
+  font-display: swap;
+}

@@ -25,6 +25,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
+        display: ['Lastica', 'system-ui'],
       },
       minWidth: {
         xs: '320px',
