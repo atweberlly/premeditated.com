@@ -1,4 +1,4 @@
-# Project Title
+# Premeditated
 
 This demo website uses [Vite](https://vitejs.dev), [PostCSS](https://postcss.org), and [Tailwind CSS](https://tailwindcss.com).
 
