@@ -1,5 +1,9 @@
 @import 'swiper/css/bundle';
 
+.swiper-slide-active > .mt-4 {
+  @apply block;
+}
+
 .swiper-pagination {
   @apply !bottom-4;
 }

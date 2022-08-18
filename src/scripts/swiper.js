@@ -62,7 +62,7 @@ const ourCollection = new Swiper('.our-collection', {
   centeredSlides: true,
   effect: 'coverflow',
   grabCursor: true,
-  loop: true,
+  // loop: true,
   slidesPerView: 'auto',
   spaceBetween: 32,
 })
