@@ -1,17 +1,7 @@
 @import 'base.css';
-@import 'tailwindcss/components';
+@import 'components.css';
 @import 'tailwindcss/utilities';
 
 /*! purgecss start ignore */
 @import 'swiper.css';
 /*! purgecss end ignore */
-
-@layer components {
-  .img-modal {
-    @apply fixed inset-0 z-50 hidden h-full w-full items-center bg-black/50 supports-backdrop-blur:backdrop-blur-lg;
-  }
-
-  .img-modal.active {
-    @apply flex;
-  }
-}
