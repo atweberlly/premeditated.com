@@ -1,15 +1,17 @@
-import { defineConfig } from 'vite'
 import { createHtmlPlugin } from 'vite-plugin-html'
 
-export default defineConfig({
+const portNumber = 8080
+
+/** @type {import('vite').UserConfig} */
+export default {
   plugins: [
     createHtmlPlugin({
-      entry: './src/index.js',
       minify: true,
     }),
   ],
   server: {
     host: '0.0.0.0',
+    port: portNumber,
     open: true,
   },
   build: {
@@ -17,4 +19,7 @@ export default defineConfig({
       input: { index: './index.html' },
     },
   },
-})
+  preview: {
+    port: portNumber,
+  },
+}

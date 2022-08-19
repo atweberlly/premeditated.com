@@ -21,7 +21,6 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('/img/bg/banner-bg.jpg')",
-        experience: "url('/img/join-the-experience.jpg')",
         footer: "url('/img/footer-bg.jpg')",
       },
       fontFamily: {
