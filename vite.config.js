@@ -1,14 +1,11 @@
 import { createHtmlPlugin } from 'vite-plugin-html'
+import metaTagsGenerator from './metaTagsGenerator'
 
 const portNumber = 8080
 
 /** @type {import('vite').UserConfig} */
 export default {
-  plugins: [
-    createHtmlPlugin({
-      minify: true,
-    }),
-  ],
+  plugins: [createHtmlPlugin({ ...metaTagsGenerator })],
   server: {
     host: '0.0.0.0',
     port: portNumber,

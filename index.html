@@ -4,26 +4,8 @@
     <meta charset="utf-8" />
     <link rel="icon" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Premeditated Landing Page Demo</title>
-    <meta name="author" content="Jonah Castro" />
-    <meta name="description" content="Premeditated Landing Page Demo using Vue.js" />
-    <meta name="keywords" content="wigs" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Premeditated Landing Page Demo" />
-    <meta name="twitter:description" content="Premeditated Landing Page Demo using Vue.js" />
-    <meta name="twitter:site" content="@" />
-    <meta name="twitter:creator" content="@" />
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2300&q=80" />
-
-    <!-- Open Graph general (Facebook, Pinterest)-->
-    <meta property="og:title" content="Premeditated Landing Page Demo" />
-    <meta property="og:description" content="Premeditated Landing Page Demo using Vue.js" />
-    <meta property="og:url" content="https://premeditated-demo.netlify.app" />
-    <meta property="og:site_name" content="https://premeditated-demo.netlify.app" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2300&q=80" />
+    <title><%- title %></title>
+    <%- injectScript %>
   </head>
 
   <body class="relative min-h-screen min-w-xs bg-black text-white antialiased">
@@ -392,7 +374,5 @@
         </div>
       </div>
     </footer>
-
-    <script src="/src/index.js" type="module"></script>
   </body>
 </html>
