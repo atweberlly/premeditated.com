@@ -12,6 +12,9 @@ module.exports = {
       },
       keyframes: true,
       variables: true,
+      safelist: {
+        keyframes: ['gravity'],
+      },
     },
     'postcss-sort-media-queries': {},
     tailwindcss: {},

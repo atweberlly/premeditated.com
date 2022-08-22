@@ -27,10 +27,20 @@ module.exports = {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
         display: ['Lastica', 'system-ui'],
       },
+      keyframes: {
+        gravity: {
+          '0%, 100%': { transform: 'translateY(-1rem)' },
+          '50%': { transform: 'translateY(1rem)' },
+        },
+      },
       minWidth: {
         xs: '320px',
       },
     },
+  },
+  corePlugins: {
+    backgroundOpacity: false,
+    textOpacity: false,
   },
   plugins: [
     plugin(({ addUtilities, addVariant }) => {
