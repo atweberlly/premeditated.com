@@ -11,7 +11,6 @@ export default {
     rollupOptions: {
       input: {
         index: './index.html',
-        test: './pages/test.html',
       },
     },
   },
