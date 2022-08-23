@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const aspectRatio = require('@tailwindcss/aspect-ratio')
 const plugin = require('tailwindcss/plugin')
 const contents = require('./contents')
 
@@ -27,22 +28,18 @@ module.exports = {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
         display: ['Lastica', 'system-ui'],
       },
-      keyframes: {
-        gravity: {
-          '0%, 100%': { transform: 'translateY(-1rem)' },
-          '50%': { transform: 'translateY(1rem)' },
-        },
-      },
       minWidth: {
         xs: '320px',
       },
     },
   },
   corePlugins: {
+    aspectRatio: false,
     backgroundOpacity: false,
     textOpacity: false,
   },
   plugins: [
+    aspectRatio,
     plugin(({ addUtilities, addVariant }) => {
       addUtilities({
         '.text-shadow': {
