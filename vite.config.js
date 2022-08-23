@@ -1,10 +1,10 @@
-const portNumber = 8080
+const customPortNumber = 8080
 
 /** @type {import('vite').UserConfig} */
 export default {
   server: {
     host: '0.0.0.0',
-    port: portNumber,
+    port: customPortNumber,
     open: true,
   },
   build: {
@@ -15,6 +15,6 @@ export default {
     },
   },
   preview: {
-    port: portNumber,
+    port: customPortNumber,
   },
 }
