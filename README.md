@@ -1,6 +1,6 @@
 # Premeditated
 
-This demo website uses [Vite](https://vitejs.dev), [PostCSS](https://postcss.org), and [Tailwind CSS](https://tailwindcss.com).
+This demo website uses [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
 
 ## Run Locally
 
