@@ -1,17 +1,15 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+// const typography = require('@tailwindcss/typography')
 const aspectRatio = require('@tailwindcss/aspect-ratio')
 const plugin = require('tailwindcss/plugin')
-const contents = require('./contents')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [...contents],
+  content: ['./src/**/*.astro'],
   theme: {
     container: {
       center: true,
-      padding: {
-        DEFAULT: '2rem',
-      },
+      padding: '2rem',
     },
     extend: {
       colors: {
@@ -25,11 +23,11 @@ module.exports = {
         footer: "url('/img/footer-bg.jpg')",
       },
       fontFamily: {
-        sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         display: ['Lastica', 'system-ui'],
       },
       minWidth: {
-        xs: '320px',
+        xs: '20rem',
       },
     },
   },
@@ -39,6 +37,7 @@ module.exports = {
     textOpacity: false,
   },
   plugins: [
+    // typography,
     aspectRatio,
     plugin(({ addUtilities, addVariant }) => {
       addUtilities({
