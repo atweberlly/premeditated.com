@@ -1,0 +1,22 @@
+---
+import '../styles/main.css'
+
+const { frontmatter } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/logomark-light.svg" />
+    <title>{frontmatter.title}</title>
+    <meta name="author" content="{frontmatter.author}" />
+  </head>
+
+  <body class="min-w-xs antialiased">
+    <article class="prose mx-auto max-w-prose px-4">
+      <slot />
+    </article>
+  </body>
+</html>

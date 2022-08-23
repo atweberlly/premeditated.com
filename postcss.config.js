@@ -1,10 +1,7 @@
-const contents = require('./contents')
-
 module.exports = {
   plugins: {
-    autoprefixer: {},
-    '@fullhuman/postcss-purgecss': process.env.NODE_ENV === 'production' && {
-      content: [...contents],
+    '@fullhuman/postcss-purgecss': {
+      content: ['./src/**/*.astro', './src/**/*.js'],
       defaultExtractor: (content) => {
         const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]+/g) || []
         const innerMatches = content.match(/[^<>"'`\s.()]*[^<>"'`\s.():]+/g) || []
@@ -16,6 +13,7 @@ module.exports = {
         keyframes: ['gravity'],
       },
     },
+    autoprefixer: {},
     'postcss-sort-media-queries': {},
     tailwindcss: {},
   },
