@@ -44,6 +44,9 @@ module.exports = {
         '.text-shadow': {
           'text-shadow': '0 2px 4px #d71dff',
         },
+        '.writing-ltr': {
+          'writing-mode': 'vertical-lr',
+        },
       })
 
       addVariant('supports-backdrop-blur', '@supports (backdrop-filter: blur(0))')

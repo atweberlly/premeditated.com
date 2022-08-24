@@ -80,25 +80,57 @@ export default function Collection() {
       <Header />
 
       <main>
-        {/* <section className="px-8 py-8">
-          <div className="hero rounded-2xl border border-white/25 p-8 supports-backdrop-blur:backdrop-blur-lg">
-            <h1 className="text-center md:text-left">
-              <span className="block font-display text-3xl tracking-widest lg:text-5xl">
-                Straight
-              </span>
-              <span className="mt-2 block text-2xl lg:text-4xl">Space Babe</span>
-              <span className="mt-2 block font-display text-2xl tracking-widest text-spring lg:text-3xl">
-                Collection
-              </span>
-            </h1>
+        <section className="relative overflow-hidden py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32">
+          <img
+            className="hidden select-none opacity-90 md:absolute md:bottom-1/2 md:block md:translate-y-1/2 xl:right-0 xl:bottom-8 xl:max-w-4xl xl:translate-y-0 2xl:right-32"
+            src="/img/bg/starfield-06.png"
+            alt=""
+          />
+          <div className="px-8 xl:mx-auto xl:max-w-6xl xl:px-0">
+            <div className="grid grid-cols-1 gap-4 rounded-2xl border border-white/25 supports-backdrop-blur:backdrop-blur-lg md:grid-cols-2 md:items-center md:justify-between md:gap-0">
+              <h1 className="px-8 pt-8 text-center md:pt-0 md:text-left xl:pl-16 xl:pr-0">
+                <span className="block font-display text-3xl tracking-widest lg:text-5xl xl:text-6xl">
+                  Straight
+                </span>
+                <span className="mt-2 block text-2xl lg:text-4xl">Space Babe</span>
+                <span className="mt-2 block font-display text-2xl tracking-widest text-spring lg:text-3xl">
+                  Collection
+                </span>
+              </h1>
 
-            <div>
-              <img className="mt-8" src="/img/collection/wig-04-transparent.png" alt="" />
+              <div className="relative">
+                <div className="absolute top-0 left-8 md:top-8 md:left-0 xl:left-16">
+                  <svg
+                    className="h-16 w-16 text-purple lg:h-24 lg:w-24"
+                    fill="none"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 13.7329c3.68335-.181 6.80599-1.5968 9.36792-4.24746C11.9298 6.83477 13.2108 3.67295 13.2108 0c0 3.67295 1.2855 6.83477 3.8566 9.48544 2.571 2.65066 5.6982 4.06646 9.3816 4.24746-2.4252.1085-4.6498.7915-6.6738 2.049-2.024 1.2575-3.6241 2.9221-4.8002 4.9938-1.1761 2.0717-1.7642 4.3198-1.7642 6.7443 0-3.691-1.281-6.8664-3.84288-9.5262C6.80599 15.3341 3.68335 13.9138 0 13.7329Zm17.9591 10.907c1.9627-.0944 3.6234-.8539 4.9822-2.2788 1.3588-1.4248 2.0382-3.1185 2.0382-5.0812 0 1.9627.6794 3.6564 2.0382 5.0812 1.3588 1.4249 3.0195 2.1844 4.9822 2.2788-1.9627.0944-3.6234.854-4.9822 2.2788-1.3588 1.4248-2.0382 3.1185-2.0382 5.0812 0-1.9627-.6794-3.6564-2.0382-5.0812-1.3588-1.4248-3.0195-2.1844-4.9822-2.2788Z"
+                    />
+                  </svg>
+                </div>
+                <img
+                  className="xl:mx-auto xl:max-w-sm"
+                  src="/img/collection/wig-04-transparent.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
-        <section className="mx-auto px-8 py-8">
+        <section className="px-8 py-8 sm:py-12 md:py-16 lg:py-24 xl:relative xl:py-32">
+          <div className="hidden xl:absolute xl:top-48 xl:left-0 xl:inline-block xl:rotate-180">
+            <a
+              className="inline-block bg-purple px-2 py-4 text-2xl font-bold uppercase text-black writing-ltr"
+              href="#"
+            >
+              Get 10% Off
+            </a>
+          </div>
+
           <h2 className="text-center text-xl uppercase md:text-2xl">
             <span className="inline-block sm:block">Straight Wigs</span>
             <span className="text-purple">Synthetic Lace Front Wigs, Heat Friendly</span>
@@ -107,9 +139,9 @@ export default function Collection() {
             Countless textures, lengths, and colors of synthetic lace front wigs.
           </p>
 
-          <div className="mt-8 xl:mx-auto xl:max-w-4xl" role="grid">
+          <div className="mt-8 xl:mx-auto xl:max-w-5xl" role="grid">
             <div
-              className="grid grid-cols-1 gap-8 sm:grid-cols-2  lg:grid-cols-3 lg:gap-y-12"
+              className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-10 lg:gap-y-12"
               role="row"
             >
               {collections.map(({ no, image, alt, type, title, subtitle, color, price }) => (
