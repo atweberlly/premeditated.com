@@ -1,11 +1,11 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
-// const typography = require('@tailwindcss/typography')
 const aspectRatio = require('@tailwindcss/aspect-ratio')
 const plugin = require('tailwindcss/plugin')
+const contents = require('./contents')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.astro'],
+  content: [...contents],
   theme: {
     container: {
       center: true,
@@ -37,7 +37,6 @@ module.exports = {
     textOpacity: false,
   },
   plugins: [
-    // typography,
     aspectRatio,
     plugin(({ addUtilities, addVariant }) => {
       addUtilities({
