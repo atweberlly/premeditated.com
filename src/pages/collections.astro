@@ -1,8 +1,8 @@
 ---
 import { Seo } from 'astro-seo-meta'
-import Layout from '../layouts/Layout.astro'
-import Header from '../components/Header.astro'
-import Footer from '../components/Footer.astro'
+import Layout from '@layouts/Layout.astro'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
 
 const collections = [
   {
@@ -64,6 +64,20 @@ const collections = [
   <Header />
 
   <main>
+    <section class="px-8 py-8">
+      <div class="hero rounded-2xl border border-white/25 p-8 supports-backdrop-blur:backdrop-blur-lg">
+        <h1 class="text-center md:text-left">
+          <span class="block font-display text-4xl tracking-widest lg:text-5xl">Straight</span>
+          <span class="block mt-2 text-2xl lg:text-4xl">Space Babe</span>
+          <span class="block mt-2 font-display text-2xl tracking-widest text-spring lg:text-3xl">Collection</span>
+        </h1>
+
+        <div>
+          <img class="mt-8" src="/img/collection/wig-04-transparent.png" alt="" />
+        </div>
+      </div>
+    </section>
+
     <section class="mx-auto px-8 py-8">
       <h2 class="text-center text-xl uppercase md:text-2xl">
         <span class="inline-block sm:block">Straight Wigs</span>
