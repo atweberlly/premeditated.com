@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.astro'],
+  content: ['./src/**/*.{astro,js}'],
   css: ['./dist/assets/*.css'],
   defaultExtractor: (content) => {
     const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]+/g) || []

@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('/img/bg/banner-bg.jpg')",
-        footer: "url('/img/footer-bg.jpg')",
+        terrain: "url('/img/bg/terrain-graph.png')",
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
