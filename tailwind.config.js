@@ -17,6 +17,7 @@ module.exports = {
         spring: '#a1ff00',
         mauve: '#fbc5ff',
         prelude: '#c49fcc',
+        grandis: '#ffbd69',
       },
       backgroundImage: {
         banner: "url('/img/bg/banner-bg.jpg')",
