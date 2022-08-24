@@ -805,6 +805,11 @@ astring@^1.8.0:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.3.tgz#1a0ae738c7cc558f8e5ddc8e3120636f5cebcb85"
   integrity sha512-sRpyiNrx2dEYIMmUXprS8nlpRg2Drs8m9ElX9vVEXaCB4XEAJhKfs7IcX0IwShjuOAjLR6wzIrgoptz1n19i1A==
 
+astro-seo-meta@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/astro-seo-meta/-/astro-seo-meta-0.0.4.tgz#b1096714ed7e1193ad4fd57cb07cfbbf15d4e422"
+  integrity sha512-Tf4EEaGG21st1vMunklZ73seAy/UIteCaK1U7Tt8sm/MrlQjSkFUh4Tjn+YYtZRBFC9CxuYGCFtEHj0oImHFgw==
+
 astro@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/astro/-/astro-1.0.7.tgz#267abca8fc3b25074c7fe0e825eebc7a88155b0b"
@@ -3820,11 +3825,6 @@ prettier-plugin-astro@^0.5.1:
     sass-formatter "^0.7.2"
     synckit "^0.7.0"
 
-prettier-plugin-tailwindcss@^0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.1.13.tgz#ca1071361dc7e2ed5d95a2ee36825ce45f814942"
-  integrity sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==
-
 prettier@^2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
@@ -4094,7 +4094,7 @@ rimraf@^3.0.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rollup@^2.75.6:
+rollup@^2.75.6, rollup@^2.78.1:
   version "2.78.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.78.1.tgz#52fe3934d9c83cb4f7c4cb5fb75d88591be8648f"
   integrity sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==
