@@ -10,6 +10,7 @@ const { title } = Astro.props
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/logomark-light.svg" />
     <title>{title}</title>
+    <slot name="meta-slot" />
   </head>
 
   <body class="relative min-h-screen min-w-xs bg-black text-white antialiased">
