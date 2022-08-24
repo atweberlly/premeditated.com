@@ -5,22 +5,40 @@ export default function Footer() {
         <div role="grid">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-6" role="row">
             <div className="md:col-span-3" role="gridcell">
-              <img className="h-24 w-auto" src="/img/premeditated-logotype.png" alt="Premeditated" />
-              <p className="text-lg text-gray-400">Complete your style with awesome Wigs from us.</p>
+              <img
+                className="h-24 w-auto"
+                src="/img/premeditated-logotype.png"
+                alt="Premeditated"
+              />
+              <p className="text-lg text-gray-400">
+                Complete your style with awesome Wigs from us.
+              </p>
               <div className="mt-4 inline-flex items-center gap-x-2">
-                <a className="flex h-8 w-8 items-center justify-center rounded-lg bg-spring" href="#" target="_blank">
+                <a
+                  className="flex h-8 w-8 items-center justify-center rounded-lg bg-spring"
+                  href="#"
+                  target="_blank"
+                >
                   <span className="fab fa-facebook text-lg text-black">
                     <span className="sr-only">Visit Facebook</span>
                   </span>
                 </a>
 
-                <a className="flex h-8 w-8 items-center justify-center rounded-lg bg-spring" href="#" target="_blank">
+                <a
+                  className="flex h-8 w-8 items-center justify-center rounded-lg bg-spring"
+                  href="#"
+                  target="_blank"
+                >
                   <span className="fab fa-instagram text-lg text-black">
                     <span className="sr-only">Visit Instagram</span>
                   </span>
                 </a>
 
-                <a className="flex h-8 w-8 items-center justify-center rounded-lg bg-spring" href="#" target="_blank">
+                <a
+                  className="flex h-8 w-8 items-center justify-center rounded-lg bg-spring"
+                  href="#"
+                  target="_blank"
+                >
                   <span className="fab fa-twitter text-lg text-black">
                     <span className="sr-only">Visit Twitter</span>
                   </span>
