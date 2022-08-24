@@ -1,0 +1,101 @@
+---
+import { Seo } from 'astro-seo-meta'
+import Layout from '../layouts/Layout.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+
+const collections = [
+  {
+    no: 1,
+    image: '/img/collection/wig-01.jpg',
+    alt: 'Synthetic Lace Front Wigs',
+    title: 'Grand Sunshine',
+    subtitle: 'Synthetic Lace Front Wigs',
+    color: 'Yellow',
+  },
+  {
+    no: 2,
+    image: '/img/collection/wig-02.jpg',
+    alt: 'Aurora',
+    title: 'Aurora',
+    subtitle: 'Synthetic Lace Front Wigs',
+    color: 'Blue Ombre',
+  },
+  {
+    no: 3,
+    image: '/img/collection/wig-03.jpg',
+    alt: 'Queen Neptune',
+    title: 'Queen Neptune',
+    subtitle: 'Synthetic Lace Front Wigs',
+    color: 'Black to Blue Ombre',
+  },
+  {
+    no: 4,
+    image: '/img/collection/wig-01.jpg',
+    alt: 'Queen Neptune',
+    title: 'Queen Neptune',
+    subtitle: 'Synthetic Lace Front Wigs',
+    color: 'Yellow',
+  },
+  {
+    no: 5,
+    image: '/img/collection/wig-02.jpg',
+    alt: 'Queen Neptune',
+    title: 'Queen Neptune',
+    subtitle: 'Synthetic Lace Front Wigs',
+    color: 'Blue Ombre',
+  },
+  {
+    no: 6,
+    image: '/img/collection/wig-03.jpg',
+    alt: 'Queen Neptune',
+    title: 'Queen Neptune',
+    subtitle: 'Synthetic Lace Front Wigs',
+    color: 'Black to Blue Ombre',
+  },
+]
+---
+
+<Layout title="Collections">
+  <Fragment slot="meta-slot">
+    <Seo description="Collections page of Premeditated." />
+  </Fragment>
+
+  <Header />
+
+  <main>
+    <section class="mx-auto px-8 py-8">
+      <h2 class="text-center text-xl uppercase md:text-2xl">
+        <span class="inline-block sm:block">Straight Wigs</span>
+        <span class="text-purple">Synthetic Lace Front Wigs, Heat Friendly</span>
+      </h2>
+      <p class="mt-2 text-center text-gray-300">Countless textures, lengths, and colors of synthetic lace front wigs.</p>
+
+      <div class="mt-8 grid grid-cols-1 gap-8 xl:mx-auto xl:max-w-4xl" role="grid">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3" role="row">
+          {
+            collections.map(({ image, alt, title, subtitle, color }) => (
+              <div role="gridcell">
+                <div class="relative overflow-hidden rounded-2xl border border-white/50">
+                  <img src={image} alt={alt} />
+                  <div class="absolute inset-x-0 bottom-0 bg-black/75 p-4 supports-backdrop-blur:bg-black/50 supports-backdrop-blur:backdrop-blur-lg">
+                    <h3 class="text-xl font-bold uppercase tracking-wide">{title}</h3>
+                    <div class="text-sm font-medium uppercase">
+                      {subtitle} &verbar; {color} Wig
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="mt-8">
+        <button class="mx-auto block border-2 border-spring px-4 py-2" type="button">View more</button>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
