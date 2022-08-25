@@ -3,8 +3,12 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
-      "@jsx/*": ["src/jsx/*"],
-      "@layouts/*": ["src/layouts/*"]
+      "@jsx/*": ["src/vue/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@vue/*": ["src/vue/*"]
     }
+  },
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true
   }
 }
