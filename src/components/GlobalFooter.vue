@@ -30,27 +30,27 @@
           <div role="gridcell">
             <h2 class="text-xl font-bold">Company</h2>
             <nav class="mt-4 inline-flex flex-col gap-y-4">
-              <!-- {['About', 'Contact Us', 'Support'].map((item, i) => (
-              <a class="text-gray-400 hover:text-gray-300" href="#" key="{i}"> {item} </a>
-              ))} -->
+              <a class="text-gray-400 hover:text-gray-300" href="#">About</a>
+              <a class="text-gray-400 hover:text-gray-300" href="#">Contact Us</a>
+              <a class="text-gray-400 hover:text-gray-300" href="#">Support</a>
             </nav>
           </div>
 
           <div role="gridcell">
             <h2 class="text-xl font-bold">Quick Links</h2>
             <nav class="mt-4 inline-flex flex-col gap-y-4">
-              <!-- {['Share Location', 'Orders Tracking', 'Size Guide', 'FAQs'].map((item, i) => (
-              <a class="text-gray-400 hover:text-gray-300" href="#" key="{i}"> {item} </a>
-              ))} -->
+              <a class="text-gray-400 hover:text-gray-300" href="#">Share Location</a>
+              <a class="text-gray-400 hover:text-gray-300" href="#">Orders Tracking</a>
+              <a class="text-gray-400 hover:text-gray-300" href="#">Size Guide</a>
+              <a class="text-gray-400 hover:text-gray-300" href="#">FAQs</a>
             </nav>
           </div>
 
           <div role="gridcell">
             <h2 class="text-xl font-bold">Legal</h2>
             <nav class="mt-4 inline-flex flex-col gap-y-4">
-              <!-- {['Terms and Conditions', 'Privacy Policy'].map((item, i) => (
-              <a class="text-gray-400 hover:text-gray-300" href="#" key="{i}"> {item} </a>
-              ))} -->
+              <a class="text-gray-400 hover:text-gray-300" href="#">Terms &amp; Conditions</a>
+              <a class="text-gray-400 hover:text-gray-300" href="#">Privacy Policy</a>
             </nav>
           </div>
         </div>
