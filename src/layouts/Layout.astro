@@ -1,5 +1,6 @@
 ---
 import '../styles/main.css'
+
 const { title } = Astro.props
 ---
 
@@ -15,5 +16,8 @@ const { title } = Astro.props
 
   <body class="relative min-h-screen min-w-xs bg-black text-white antialiased">
     <slot />
+    <script>
+      import '../scripts/mobile-menu'
+    </script>
   </body>
 </html>

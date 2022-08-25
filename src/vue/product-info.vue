@@ -1,6 +1,8 @@
 <template>
+  <GlobalHeader />
+
   <main>
-    <section class="max-w-screen-lg px-8 py-8 xl:mx-auto">
+    <section class="max-w-screen-lg px-8 py-8 sm:py-12 md:py-16 lg:py-24 xl:mx-auto xl:py-32">
       <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
         <div>
           <div class="relative">
@@ -67,5 +69,9 @@
 </template>
 
 <script>
-export default {}
+import GlobalHeader from '@components/GlobalHeader.vue'
+
+export default {
+  components: { GlobalHeader },
+}
 </script>

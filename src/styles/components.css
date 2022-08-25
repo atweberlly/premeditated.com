@@ -112,6 +112,14 @@
   animation: sf-fly-by-3 5s linear infinite;
 }
 
+.mobile-menu {
+  @apply fixed top-0 bottom-0 -left-full z-50 h-full w-8/12 border-r border-white/50 bg-black/75 transition-all supports-backdrop-blur:backdrop-blur-lg md:w-1/2;
+}
+
+.mobile-menu.active {
+  @apply left-0;
+}
+
 .img-modal {
   @apply invisible fixed inset-0 z-50 flex h-full w-full items-center bg-black/50 opacity-0 transition-opacity duration-500 supports-backdrop-blur:backdrop-blur-lg;
 }
