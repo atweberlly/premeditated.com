@@ -14,7 +14,7 @@
 
         <div>
           <h1 class="text-4xl font-bold tracking-tight lg:text-5xl xl:text-6xl">Queen of the Martians</h1>
-          <div class="mt-2 flex items-center justify-between">
+          <div class="mt-2 flex items-center justify-between md:mt-4 lg:mt-6">
             <div class="flex items-center gap-x-2">
               <div class="text-2xl font-bold">$145</div>
               <div class="text-sm text-gray-400 line-through">$249</div>
@@ -26,8 +26,9 @@
               <div class="text-sm">In stock</div>
             </div>
           </div>
+
           <div class="mt-4 flex items-center justify-between">
-            <div class="flex items-center">
+            <div class="flex items-center gap-x-1">
               <svg class="h-5 w-5 text-grandis" fill="currentColor" viewBox="0 0 24 24" v-for="i in 5" :key="i">
                 <path d="M10.788 3.21c.448-1.077 1.97-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" />
               </svg>
@@ -38,8 +39,14 @@
               <button class="text-sm" type="button">Add review</button>
             </div>
           </div>
-          <div></div>
+
+          <div class="mt-8">
+            <label class="block text-sm text-gray-400" for="quantity">Quantity:</label>
+            <input class="mt-2 block w-full rounded px-4 py-3 text-center text-black transition-all focus:outline-0 focus:ring-2 focus:ring-spring/50 focus:ring-offset-2 focus:ring-offset-black sm:w-32" id="quantity" type="number" value="1" />
+          </div>
+
           <p class="mt-8 text-sm">Pay in 4 interest-free installments of $24.75 with shop pay. <a class="text-spring underline" href="#">Learn more</a></p>
+
           <div class="mt-8 flex flex-col gap-y-3">
             <button class="flex items-center justify-center gap-x-4 rounded border border-spring px-4 py-3" type="button">
               <svg class="h-5 w-5" viewBox="0 0 24 24">
@@ -51,12 +58,14 @@
             <button class="flex items-center justify-center gap-x-4 rounded bg-spring px-4 py-3 text-black" type="button">Buy with Amazon Pay</button>
             <button class="underline" type="button">More payment options</button>
           </div>
+
           <div class="mt-8 space-y-4">
             <p>Channel your inner Billie Eilish with our neon green Queen of the Martians' synthetic lace front wig. It's the perfect way to experiment with your hair colour without pulling the trigger on an at-home box dye. You can wear it as part of your latest cosplay or get dressed up at home for a TikTok or Instagram video. Jump on the classic 'little green men' space trend with this lace-front synthetic wig.</p>
             <p>The 'Queen of the Martians' wig will help you create a realistic cosplay look of Tao Jun from Shaman King or Eureka from Eureka Seven. As our wig is made using synthetic hair, you can ever wear it as your new look.</p>
             <p>Our 'Queen of the Martians' wig comes pre-styled with a classic straight blow-dry look, with extra volume at the roots, meaning you can wear it right out of the box. Synthetic lace front wigs are heat resistant, allowing you to treat them like your natural hair by washing and styling.</p>
             <p>A synthetic lace front wig gives the illusion that you're wearing your natural hair. With a little TLC, you can get up to a year of wear out of your 'Queen of the Martians' wig.</p>
           </div>
+
           <ul class="mt-8 list-inside list-disc space-y-2">
             <li class="text-sm">Lace-front neon green synthetic wig</li>
             <li class="text-sm">Arrives pre-styled with straight hair</li>
@@ -72,6 +81,7 @@
 import GlobalHeader from '@components/GlobalHeader.vue'
 
 export default {
+  name: 'ProductInfo',
   components: { GlobalHeader },
 }
 </script>
