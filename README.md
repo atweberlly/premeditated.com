@@ -1,6 +1,6 @@
 # Premeditated
 
-This demo website uses [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
+This static demo website of Premeditated uses [Vite](https://vitejs.dev/), [Vue.js](https://vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Run Locally
 
@@ -19,11 +19,11 @@ This demo website uses [Astro](https://astro.build) and [Tailwind CSS](https://t
 3. Install dependencies
 
    ```sh
-   yarn install
+   npm install
    ```
 
 4. Start the local server
 
    ```sh
-   yarn dev
+   npm run dev
    ```
