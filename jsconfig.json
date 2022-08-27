@@ -3,9 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
-      "@jsx/*": ["src/vue/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@vue/*": ["src/vue/*"]
+      "@scripts/*": ["src/scripts/*"],
+      "@views/*": ["src/views/*"]
     }
   },
   "vueCompilerOptions": {

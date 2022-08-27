@@ -1,1 +1,1 @@
-module.exports = ['./src/**/*.astro', './src/**/*.{js,vue}']
+module.exports = ['./index.html', './src/**/*.{js,vue}']
