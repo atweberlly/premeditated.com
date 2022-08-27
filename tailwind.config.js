@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const aspectRatio = require('@tailwindcss/aspect-ratio')
+const lineClamp = require('@tailwindcss/line-clamp')
 const plugin = require('tailwindcss/plugin')
 const contents = require('./contents')
 
@@ -39,6 +40,7 @@ module.exports = {
   },
   plugins: [
     aspectRatio,
+    lineClamp,
     plugin(({ addUtilities, addVariant }) => {
       addUtilities({
         '.text-shadow': {
