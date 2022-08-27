@@ -66,6 +66,8 @@
 </template>
 
 <script setup>
+document.title = 'Recently Viewed Component'
+
 const recentlyView = [
   {
     image: '/img/collection/wig-12.jpg',
