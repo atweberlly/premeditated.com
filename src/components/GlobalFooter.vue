@@ -7,19 +7,31 @@
             <img class="h-24 w-auto" src="/img/premeditated-logotype.png" alt="Premeditated" />
             <p class="text-lg text-gray-400">Complete your style with awesome Wigs from us.</p>
             <div class="mt-4 inline-flex items-center gap-x-2">
-              <a class="flex h-8 w-8 items-center justify-center rounded-lg bg-spring" href="#" target="_blank">
+              <a
+                class="flex h-8 w-8 items-center justify-center rounded-lg bg-spring"
+                href="#"
+                target="_blank"
+              >
                 <span class="fab fa-facebook text-lg text-black">
                   <span class="sr-only">Visit Facebook</span>
                 </span>
               </a>
 
-              <a class="flex h-8 w-8 items-center justify-center rounded-lg bg-spring" href="#" target="_blank">
+              <a
+                class="flex h-8 w-8 items-center justify-center rounded-lg bg-spring"
+                href="#"
+                target="_blank"
+              >
                 <span class="fab fa-instagram text-lg text-black">
                   <span class="sr-only">Visit Instagram</span>
                 </span>
               </a>
 
-              <a class="flex h-8 w-8 items-center justify-center rounded-lg bg-spring" href="#" target="_blank">
+              <a
+                class="flex h-8 w-8 items-center justify-center rounded-lg bg-spring"
+                href="#"
+                target="_blank"
+              >
                 <span class="fab fa-twitter text-lg text-black">
                   <span class="sr-only">Visit Twitter</span>
                 </span>
