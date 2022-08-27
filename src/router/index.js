@@ -6,6 +6,7 @@ import Collections from '@views/CollectionsView.vue'
 import ProductInfo from '@views/ProductInfoView.vue'
 
 // Components
+import RelatedProducts from '@components/RelatedProducts.vue'
 import RecentlyViewed from '@components/RecentlyViewed.vue'
 
 const routes = [
@@ -20,6 +21,10 @@ const routes = [
   {
     path: '/product-info',
     component: ProductInfo,
+  },
+  {
+    path: '/components/related-products',
+    component: RelatedProducts,
   },
   {
     path: '/components/recently-viewed',
