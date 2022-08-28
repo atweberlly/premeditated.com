@@ -37,6 +37,7 @@ module.exports = {
   corePlugins: {
     aspectRatio: false,
     backgroundOpacity: false,
+    borderOpacity: false,
     textOpacity: false,
   },
   plugins: [

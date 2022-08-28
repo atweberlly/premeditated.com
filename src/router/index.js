@@ -9,6 +9,7 @@ import ShopAll from '@views/ShopAllView.vue'
 // Components
 import RelatedProducts from '@components/RelatedProducts.vue'
 import RecentlyViewed from '@components/RecentlyViewed.vue'
+import CheckoutFields from '@components/CheckoutFields.vue'
 import SuccessOrder from '@components/SuccessOrder.vue'
 
 const routes = [
@@ -38,6 +39,10 @@ const routes = [
   {
     path: '/components/recently-viewed',
     component: RecentlyViewed,
+  },
+  {
+    path: '/components/checkout-fields',
+    component: CheckoutFields,
   },
   {
     path: '/components/success-order',
