@@ -1,4 +1,5 @@
 const contents = require('./contents')
+const postcssSorting = require('./postcssSorting')
 
 module.exports = {
   plugins: {
@@ -17,6 +18,11 @@ module.exports = {
     },
     autoprefixer: {},
     'postcss-sort-media-queries': {},
+    'postcss-sorting': {
+      order: [...postcssSorting.order],
+      'properties-order': [...postcssSorting.propertiesOrder],
+      'unspecified-properties-position': 'bottom',
+    },
     tailwindcss: {},
   },
 }
