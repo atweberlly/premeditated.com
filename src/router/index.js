@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-// Pages
+// Views
 import IndexPage from '@views/IndexView.vue'
 import Collections from '@views/CollectionsView.vue'
 import ProductInfo from '@views/ProductInfoView.vue'
@@ -9,6 +9,7 @@ import ShopAll from '@views/ShopAllView.vue'
 // Components
 import RelatedProducts from '@components/RelatedProducts.vue'
 import RecentlyViewed from '@components/RecentlyViewed.vue'
+import SuccessOrder from '@components/SuccessOrder.vue'
 
 const routes = [
   // Views
@@ -37,6 +38,10 @@ const routes = [
   {
     path: '/components/recently-viewed',
     component: RecentlyViewed,
+  },
+  {
+    path: '/components/success-order',
+    component: SuccessOrder,
   },
 ]
 
