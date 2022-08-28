@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: {
         banner: "url('/img/bg/banner-bg.jpg')",
         terrain: "url('/img/bg/terrain-graph.png')",
+        'shop-all': "url('/img/shop/shop-all-bg.jpg')",
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
