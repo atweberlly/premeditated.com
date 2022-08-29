@@ -5,6 +5,8 @@ import IndexPage from '@views/IndexView.vue'
 import Collections from '@views/CollectionsView.vue'
 import ProductInfo from '@views/ProductInfoView.vue'
 import ShopAll from '@views/ShopAllView.vue'
+import BlogPosts from '@views/BlogView.vue'
+import _404Page from '@views/404PageView.vue'
 
 // Components
 import RelatedProducts from '@components/RelatedProducts.vue'
@@ -29,6 +31,14 @@ const routes = [
   {
     path: '/shop-all',
     component: ShopAll,
+  },
+  {
+    path: '/blog-posts',
+    component: BlogPosts,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    component: _404Page,
   },
 
   // Components
