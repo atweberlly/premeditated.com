@@ -31,6 +31,15 @@ export default defineConfig({
     port: 8080,
     open: true,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[hash].[extname]',
+        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js',
+      },
+    },
+  },
   preview: {
     port: 8080,
   },

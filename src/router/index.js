@@ -7,6 +7,9 @@ import ProductInfo from '@views/ProductInfoView.vue'
 import ShopAll from '@views/ShopAllView.vue'
 import BlogPosts from '@views/BlogView.vue'
 import _404Page from '@views/404PageView.vue'
+import PrivacyPolicy from '@views/PrivacyPolicyView.vue'
+import RefundPolicy from '@views/RefundPolicyView.vue'
+import TermsOfService from '@views/TermsOfServiceView.vue'
 
 // Components
 import RelatedProducts from '@components/RelatedProducts.vue'
@@ -35,6 +38,18 @@ const routes = [
   {
     path: '/blog-posts',
     component: BlogPosts,
+  },
+  {
+    path: '/privacy-policy',
+    component: PrivacyPolicy,
+  },
+  {
+    path: '/refund-policy',
+    component: RefundPolicy,
+  },
+  {
+    path: '/terms-of-service',
+    component: TermsOfService,
   },
   {
     path: '/:pathMatch(.*)*',
