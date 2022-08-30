@@ -7,6 +7,7 @@ import ProductInfo from '@views/ProductInfoView.vue'
 import ShopAll from '@views/ShopAllView.vue'
 import BlogPosts from '@views/BlogView.vue'
 import _404Page from '@views/404PageView.vue'
+import ContactUs from '@views/ContactUsView.vue'
 import PrivacyPolicy from '@views/PrivacyPolicyView.vue'
 import RefundPolicy from '@views/RefundPolicyView.vue'
 import TermsOfService from '@views/TermsOfServiceView.vue'
@@ -38,6 +39,10 @@ const routes = [
   {
     path: '/blog-posts',
     component: BlogPosts,
+  },
+  {
+    path: '/contact-us',
+    component: ContactUs,
   },
   {
     path: '/privacy-policy',
