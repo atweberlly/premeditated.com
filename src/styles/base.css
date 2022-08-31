@@ -1,6 +1,3 @@
-/*! purgecss start ignore */
 @import 'tailwindcss/base';
-/*! purgecss end ignore */
-
 @import 'fonts.css';
 @import '@fortawesome/fontawesome-free/css/brands.css';

@@ -1,5 +1,5 @@
 .form-label {
-  @apply block text-sm text-gray-300;
+  @apply mb-2 block text-sm text-gray-300;
 }
 
 .form-label-required {
@@ -10,5 +10,5 @@
 }
 
 .form-input {
-  @apply mt-2 block w-full rounded-lg border border-gray-500 bg-transparent px-4 py-3 caret-spring transition-all placeholder:text-gray-600 focus:border-spring focus:outline-0 focus:ring-2 focus:ring-spring/50 focus:ring-offset-2 focus:ring-offset-black;
+  @apply block w-full rounded-lg border border-gray-500 bg-transparent px-4 py-3 caret-spring transition-all placeholder:text-gray-600 focus:border-spring focus:outline-0 focus:ring-2 focus:ring-spring/50 focus:ring-offset-2 focus:ring-offset-black;
 }
