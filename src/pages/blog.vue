@@ -29,6 +29,10 @@
   </section>
 </template>
 
-<script setup>
+<script>
 document.title = 'Blog Posts'
+
+export default {
+  name: 'BlogPage',
+}
 </script>

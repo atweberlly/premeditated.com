@@ -94,6 +94,10 @@
   </main>
 </template>
 
-<script setup>
+<script>
 document.title = 'Contact Us'
+
+export default {
+  name: 'ContactUsPage',
+}
 </script>

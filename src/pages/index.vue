@@ -519,6 +519,7 @@ import swiper from '@scripts/swiper'
 import imageModal from '@scripts/img-modal'
 
 export default {
+  name: 'IndexPage',
   components: {
     GlobalHeader,
     GlobalFooter,

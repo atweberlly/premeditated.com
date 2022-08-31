@@ -75,10 +75,10 @@
             </div>
 
             <div>
-              <label class="form-label" for="phone-number">Order note</label>
+              <label class="form-label" for="order-note">Order note</label>
               <textarea
                 class="form-input h-32"
-                id="phone-number"
+                id="order-note"
                 type="text"
                 placeholder="e.g., Extra tapioca pearls"
               ></textarea>
@@ -96,6 +96,46 @@
                 Apply <span class="hidden sm:inline-block">Coupon</span>
               </button>
             </div>
+          </div>
+
+          <!-- <div class="mt-8 rounded-md border border-gray-700 p-4">
+            <h3 class="text-lg">Your order(s)</h3>
+            <div class="mt-6 space-y-4">
+              <div class="flex flex-row">
+                <img
+                  class="w-4/12 rounded"
+                  src="/img/collection/wig-12.jpg"
+                  alt="Asteroid Maiden"
+                />
+                <div class="ml-4 w-4/12">
+                  <div>
+                    <h4>Asteroid Maiden</h4>
+                    <p>Synthetic Lace Front Wigs &verbar; Silver Lace Curly Wig</p>
+                  </div>
+                  <div>$145</div>
+                </div>
+                <div>
+                  <button type="button">
+                    <span class="sr-only">Delete order</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="mt-8 flex items-center gap-x-2">
+            <input class="h-5 w-5 rounded-none" id="direct-bank-transfer" type="checkbox" />
+            <label class="text-sm font-medium" for="direct-bank-transfer">
+              Direct Bank Transfer
+            </label>
+          </div>
+
+          <div class="tooltip mt-4 rounded-lg bg-white p-4">
+            <p class="text-sm text-black">
+              Make your payment directly into our bank account. Please use your Order ID as the
+              payment reference. Your order won't be shipped until the funds have cleared in our
+              account.
+            </p>
           </div>
         </div>
       </div>

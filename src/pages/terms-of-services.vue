@@ -18,6 +18,10 @@
   </article>
 </template>
 
-<script setup>
+<script>
 document.title = 'Terms of Service'
+
+export default {
+  name: 'TermsOfServicesPage',
+}
 </script>

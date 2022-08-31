@@ -97,6 +97,10 @@
   </article>
 </template>
 
-<script setup>
+<script>
 document.title = 'Privacy Policy'
+
+export default {
+  name: 'PrivacyPolicyPage',
+}
 </script>

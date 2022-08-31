@@ -2,6 +2,7 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { createHtmlPlugin } from 'vite-plugin-html'
+import pages from 'vite-plugin-pages'
 
 export default defineConfig({
   resolve: {
@@ -24,6 +25,12 @@ export default defineConfig({
         useShortDoctype: true,
         minifyCSS: false,
       },
+    }),
+    pages({
+      dirs: [
+        { dir: 'src/pages', baseRoute: '' },
+        { dir: 'src/components', baseRoute: 'components' },
+      ],
     }),
   ],
   server: {

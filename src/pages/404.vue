@@ -19,6 +19,9 @@
   </main>
 </template>
 
-<script setup>
+<script>
 document.title = '404 Error'
+export default {
+  name: '404Page',
+}
 </script>

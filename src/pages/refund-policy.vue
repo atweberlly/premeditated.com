@@ -50,6 +50,10 @@
   </article>
 </template>
 
-<script setup>
+<script>
 document.title = 'Refund Policy'
+
+export default {
+  name: 'RefundPolicyPage',
+}
 </script>

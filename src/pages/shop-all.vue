@@ -42,6 +42,10 @@
   </section>
 </template>
 
-<script setup>
+<script>
 document.title = 'Shop All'
+
+export default {
+  name: 'ShopAllPage',
+}
 </script>
