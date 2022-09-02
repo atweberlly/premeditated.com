@@ -128,3 +128,11 @@
 .img-modal.active {
   @apply visible opacity-100;
 }
+
+.tooltip {
+  @apply relative;
+}
+
+.tooltip::after {
+  @apply absolute top-0 left-8 -translate-x-1/2 -translate-y-full border-8 border-b-8 border-solid border-transparent border-b-white content-[''];
+}
