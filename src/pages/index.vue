@@ -1,12 +1,5 @@
 <template>
-  <GlobalHeader />
-
-  <div class="bg"></div>
-  <div class="star-field">
-    <div class="layer"></div>
-    <div class="layer"></div>
-    <div class="layer"></div>
-  </div>
+  <global-header />
 
   <main>
     <section class="mt-8 pt-8">
@@ -509,14 +502,14 @@
     </section>
   </main>
 
-  <GlobalFooter />
+  <global-footer />
 </template>
 
 <script>
-import GlobalHeader from '@components/GlobalHeader.vue'
-import GlobalFooter from '@components/GlobalFooter.vue'
-import swiper from '@scripts/swiper'
-import imageModal from '@scripts/img-modal'
+import GlobalHeader from '../components/GlobalHeader.vue'
+import GlobalFooter from '../components/GlobalFooter.vue'
+import swiper from '../scripts/swiper'
+import imageModal from '../scripts/img-modal'
 
 export default {
   name: 'IndexPage',

@@ -11,17 +11,5 @@
   "plugins": ["vue", "prettier"],
   "rules": {
     "prettier/prettier": "error"
-  },
-  "settings": {
-    "import/resolver": {
-      "alias": {
-        "map": [
-          ["@components", "./src/components"],
-          ["@scripts", "./src/scripts"],
-          ["@views", "./src/views"]
-        ],
-        "extensions": [".js", ".vue"]
-      }
-    }
   }
 }

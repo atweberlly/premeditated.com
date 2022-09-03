@@ -5,7 +5,8 @@
     "dev": "vite dev",
     "format": "prettier -w .",
     "lint": "eslint --fix .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "stylelint": "stylelint --fix ./src/styles/*.css"
   },
   "browserslist": {
     "development": [
@@ -50,7 +51,6 @@
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.4.0",
@@ -58,6 +58,10 @@
     "postcss-sort-media-queries": "^4.2.1",
     "postcss-sorting": "^7.0.1",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
   }
 }

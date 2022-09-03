@@ -90,7 +90,7 @@
 </template>
 
 <script>
-import mobileMenu from '@scripts/mobile-menu'
+import mobileMenu from '../scripts/mobile-menu'
 
 export default {
   mounted() {

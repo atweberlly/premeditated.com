@@ -1,5 +1,5 @@
 const contents = require('./contents')
-const postcssSorting = require('./postcssSorting')
+const postcssSorting = require('./utils/postcssSorting')
 
 module.exports = {
   plugins: {
