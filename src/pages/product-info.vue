@@ -11,13 +11,26 @@
             >
               Only 5 left
             </div>
-            <img src="/img/collection/wig-06.jpg" alt="Queen of the Martians" />
+            <img
+              class="img-zoomable"
+              id="main-image"
+              src="/img/collection/wig-06.jpg"
+              alt="Queen of the Martians"
+            />
           </div>
-          <img
-            class="hidden md:mt-8 md:block"
-            src="/img/collection/wig-06.jpg"
-            alt="Queen of the Martians"
-          />
+          <div class="mt-4 grid grid-cols-3 gap-4">
+            <div class="cursor-pointer">
+              <img class="thumbnail" src="/img/collection/wig-07.jpg" alt="" />
+            </div>
+
+            <div class="cursor-pointer">
+              <img class="thumbnail" src="/img/collection/wig-08.jpg" alt="" />
+            </div>
+
+            <div class="cursor-pointer">
+              <img class="thumbnail" src="/img/collection/wig-09.jpg" alt="" />
+            </div>
+          </div>
         </div>
 
         <div>
@@ -137,12 +150,16 @@
 <script>
 import GlobalHeader from '../components/GlobalHeader.vue'
 import GlobalFooter from '../components/GlobalFooter.vue'
+import zooming from '../scripts/zooming'
 
 export default {
   name: 'ProductInfoPage',
   components: {
     GlobalHeader,
     GlobalFooter,
+  },
+  mounted() {
+    zooming()
   },
 }
 </script>
