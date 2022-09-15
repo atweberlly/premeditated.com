@@ -66,7 +66,9 @@
         >
           <div role="gridcell" v-for="(collection, index) in collections" :key="index">
             <div>
-              <img :src="collection.image" :alt="collection.alt" />
+              <div>
+                <img class="object-cover" :src="collection.image" :alt="collection.alt" />
+              </div>
               <div class="mt-4">
                 <div class="flex items-center justify-between">
                   <div class="flex items-center gap-x-1.5">
