@@ -12,7 +12,6 @@ function modal() {
 
   thumbnails.forEach((thumbnail) => {
     thumbnail.addEventListener('click', (e) => {
-      console.log('hi')
       image.setAttribute('src', e.target.src)
     })
   })
