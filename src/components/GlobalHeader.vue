@@ -65,7 +65,7 @@
     </div>
   </header>
 
-  <div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-menu" id="main-menu">
     <div class="flex items-center justify-between px-5 pt-8">
       <button id="close-button" type="button">
         <span class="sr-only">Close menu</span>
@@ -81,10 +81,126 @@
 
     <nav class="mt-8 space-y-4 px-5">
       <a class="block uppercase" href="#">Home</a>
-      <a class="block uppercase" href="#">Wigs</a>
+      <a href="#" data-menu="wig">
+        <span>Wigs</span>
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+          />
+        </svg>
+      </a>
+      <a href="#" data-menu="idk">
+        <span>idk</span>
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+          />
+        </svg>
+      </a>
+      <a href="#" data-menu="third example">
+        <span>third example</span>
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+          />
+        </svg>
+      </a>
       <a class="block uppercase" href="#">About Us</a>
       <a class="block uppercase" href="#">Blog</a>
       <a class="block uppercase" href="#">Contact Us</a>
+    </nav>
+
+    <nav data-view="wig">
+      <button class="mb-2 flex items-center gap-x-2 py-2" type="button">
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+          />
+        </svg>
+        <span class="uppercase">Wigs</span>
+      </button>
+
+      <a class="text-sm uppercase" href="#">Shop by department</a>
+      <a class="text-sm uppercase" href="#">Shop by color</a>
+      <a class="text-sm uppercase" href="#">Shop by hairstyle</a>
+    </nav>
+
+    <nav data-view="idk">
+      <button class="mb-2 flex items-center gap-x-2 py-2" type="button">
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+          />
+        </svg>
+        <span class="uppercase">idk</span>
+      </button>
+
+      <a class="text-sm uppercase" href="#">Shop by idk</a>
+      <a class="text-sm uppercase" href="#">Shop by idk</a>
+      <a class="text-sm uppercase" href="#">Shop by idk</a>
+    </nav>
+
+    <nav data-view="third example">
+      <button class="mb-2 flex items-center gap-x-2 py-2" type="button">
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+          />
+        </svg>
+        <span class="uppercase">third example</span>
+      </button>
+
+      <a class="text-sm uppercase" href="#">Shop by third example</a>
+      <a class="text-sm uppercase" href="#">Shop by third example</a>
+      <a class="text-sm uppercase" href="#">Shop by third example</a>
     </nav>
   </div>
 </template>
